@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+.page-content {
+    flex-grow: 1;
+}
+
+.page-header {
+    background-color: #358A9D;    
+    height: 100px;
+}
+
+.page-footer {
+    background-color: #358A9D;
+    height: 100px;
+}
+
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    background-color: rgb(116, 128, 255);
+}
+
+.content-wrapper {
+    max-width: 800px;
+    width: 100%;
+    height: 100%;
+    background-color: #ffff;
+}
